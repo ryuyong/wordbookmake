@@ -57,7 +57,7 @@ public class Common {
 	}
 	
 	
-	// 난수 구하기
+	// 난수 구하기 랜덤파일
     private Random rand=new Random();
     public int rand(int num) {
         return (rand.nextInt()>>>1) %num;
