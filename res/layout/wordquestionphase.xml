@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#ffffff"
+	>
+
+	<TextView
+	    android:id="@+id/wordquestionphase_textview01"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:background="#0000ff"
+	    android:textAlignment="center"
+	    android:textColor="#ffff00"
+	    android:textSize="30dip" >
+</TextView>
+
+	<RadioGroup
+	    android:id="@+id/wordquestionphase_radiogroup01"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/radioback1"
+	    android:orientation="vertical"
+	    android:paddingLeft="10dp"
+	    android:paddingRight="10dp" >
+
+		<RadioButton 
+		    android:id="@+id/wordquestionphase_radiobutton00"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textColor="#0000ff"
+			></RadioButton>
+		<RadioButton 
+		    android:id="@+id/wordquestionphase_radiobutton01"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textColor="#0000ff"
+			></RadioButton>
+
+		<RadioButton 
+		    android:id="@+id/wordquestionphase_radiobutton02"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textColor="#0000ff"
+			></RadioButton>
+		<RadioButton 
+		    android:id="@+id/wordquestionphase_radiobutton03"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textColor="#0000ff"
+			></RadioButton>
+	</RadioGroup>
+	<TextView android:id="@+id/wordquestionphase_textview02"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_gravity="center" android:textSize="100dip"
+		android:textColor="#0000ff"
+		></TextView>
+	
+	<LinearLayout 
+		android:orientation="horizontal" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+		<ImageButton
+		    android:id="@+id/wordquestionphase_button01"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="#000000"
+		    android:src="@drawable/back1" >
+		</ImageButton>
+		<ImageButton 
+		    android:id="@+id/wordquestionphase_button02" 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:src="@drawable/next1"
+			android:background="#000000"
+			android:layout_marginLeft="10dip"></ImageButton>
+		<!-- Button android:id="@+id/wordquestionphase_button01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			
+			></Button>
+		<Button android:id="@+id/wordquestionphase_button02"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_gravity="center" android:text="다음"></Button-->
+	</LinearLayout>
+
+    <SeekBar android:id="@+id/wordquestionphase_seek01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+	<TextView android:id="@+id/wordquestionphase_textview03" 
+	    android:background="#0000ff"
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:textColor="#ffff00"
+		android:textSize="20dip"
+		android:textAlignment="center"
+		></TextView>
+</LinearLayout>

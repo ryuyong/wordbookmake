@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView android:id="@+id/wordquestion_textview01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_gravity="center" android:textColor="#ffff00" android:textSize="30dip"></TextView>
+	<RadioGroup android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:orientation="vertical"
+		android:id="@+id/wordquestion_radiogroup01">
+		<RadioButton android:id="@+id/wordquestion_radiobutton00"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+		<RadioButton android:id="@+id/wordquestion_radiobutton01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+
+		<RadioButton android:id="@+id/wordquestion_radiobutton02"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+		<RadioButton android:id="@+id/wordquestion_radiobutton03"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+	</RadioGroup>
+	<TextView android:id="@+id/wordquestion_textview02"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_gravity="center" android:textSize="40dip"></TextView>
+	
+	<LinearLayout 
+		android:orientation="horizontal" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+		<Button android:id="@+id/wordquestion_button01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="이전" android:layout_gravity="center"></Button>
+		<Button android:id="@+id/wordquestion_button02"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_gravity="center" android:text="다음"></Button>
+	</LinearLayout>
+
+    <SeekBar android:id="@+id/wordquestion_seek01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+	<TextView android:id="@+id/wordquestion_textview03"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_gravity="center" android:textSize="20dip"></TextView>
+</LinearLayout>

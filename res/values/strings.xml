@@ -1,0 +1,5 @@
+<resources>
+
+    <string name="app_name">단어장만들기</string>
+	<string name="loading_video">loading_video</string>
+</resources>

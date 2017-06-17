@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <!-- Used in View/Spinner1.java -->
+    <string-array name="wordlists">
+        <item>의성어,의태어:word1</item>
+        <item>동사:word2</item>
+        <item>명사:word3</item>
+        <item>형용사:word4</item>
+        <item>부사:word5</item>
+        <item>기본어휘:word6</item>
+    </string-array>
+    
+    <string-array name="phraselists">
+        <item>실용어구104:phrase1</item>
+        <item>일본어 숙어 및 연어:phrase2</item>
+        <item>동사(1段動詞):phrase3</item>
+        <item>동사(5段動詞):phrase4</item>
+        <item>형용사(い形容詞):phrase5</item>
+        <item>형용사(な形容詞):phrase6</item>
+    </string-array>
+    
+    <string-array name="chineselists">
+        <item>한자 1800자 일본어:chinese1</item>
+    </string-array>
+    
+    <string-array name="elselists">
+        <item>수사,날짜,요일:else1</item>
+        <item>현장일본어:else2</item>
+    </string-array>
+</resources>

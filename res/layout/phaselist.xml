@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <ListView 
+    	android:id="@android:id/list"
+   		android:layout_width="match_parent"
+  		android:layout_height="0dp" 
+  		android:layout_weight=".60"
+		android:background="#FFFFFF" 
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@drawable/list_item_selectorphase"
+    ></ListView>
+	<LinearLayout android:orientation="horizontal" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="50dp">
+	
+		<Button 
+		    android:id="@+id/phaselist_button01"
+		    android:layout_width="0dip" 
+		    android:layout_height="fill_parent" 
+		    android:background="@drawable/allview1" 
+		    android:layout_weight="1">
+		</Button>
+		<Button 
+		    android:id="@+id/phaselist_button02"
+		    android:layout_width="0dip" 
+		    android:layout_height="fill_parent" 
+		    android:background="@drawable/motoview1" 
+		    android:layout_weight="1">
+		</Button>
+		<Button 
+		    android:id="@+id/phaselist_button03"
+		    android:layout_width="0dip" 
+		    android:layout_height="fill_parent" 
+		    android:background="@drawable/koview1" 
+		   	android:layout_weight="1">
+		</Button>
+		<Button 
+		    android:id="@+id/phaselist_button04"
+		    android:layout_width="0dip" 
+		    android:layout_height="fill_parent" 
+		    android:background="@drawable/plusadd1" 
+		   	android:layout_weight="1">
+		</Button>
+		<Button 
+		    android:id="@+id/phaselist_button05"
+		    android:layout_width="0dip" 
+		    android:layout_height="fill_parent" 
+		    android:background="@drawable/plusdel1" 
+		   	android:layout_weight="1">
+		</Button>
+		<Button 
+		    android:id="@+id/phaselist_button06"
+		    android:layout_width="0dip" 
+		    android:layout_height="fill_parent" 
+		    android:background="@drawable/plusupd1" 
+		   	android:layout_weight="1">
+		</Button>
+	</LinearLayout>
+</LinearLayout>
